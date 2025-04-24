@@ -5,7 +5,7 @@ function specia_setup() {
 	/*
 	 * Define Theme Version
 	 */
-	define( 'SPECIA_THEME_VERSION', '15.1' );
+	define( 'SPECIA_THEME_VERSION', '15.2' );
 	
 	/*
 	 * Make theme available for translation.
@@ -60,6 +60,8 @@ function specia_setup() {
 	 * specifically font, colors, icons, and column width.
 	 */
 	add_editor_style( array( 'css/editor-style.css', specia_google_font() ) );
+	
+	require_once( get_template_directory() . '/inc/customize/customizer_recommended_plugin.php');
 	
 }
 endif;
@@ -134,7 +136,6 @@ require_once( get_template_directory() . '/inc/customize/specia-portfolio.php');
 require_once( get_template_directory() . '/inc/customize/specia-blog.php');
 require_once( get_template_directory() . '/inc/customize/specia-footer-section.php');
 require_once( get_template_directory() . '/inc/customize/specia-premium.php');
-require_once( get_template_directory() . '/inc/customize/customizer_recommended_plugin.php');
 require_once( get_template_directory() . '/inc/customize/customizer_import_data.php');
 
 
