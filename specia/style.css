@@ -4,8 +4,8 @@ Theme URI: https://speciatheme.com/specia-free/
 Author: Specia
 Author URI: https://speciatheme.com/
 Description: Specia is a trending WordPress theme with lots of powerful features, instantly giving a professional look to your online presence. It fits for business, portfolio, food & restaurant, gym & fitness, spa salon, medical practitioner & hospitals, landing pages, product pages, corporate business, digital agency, product showcase, financial advisor, accountant, law firm, wealth advisor, photography, personal, and any eCommerce stores. Specia premium version provides you more than 10 different designs and supports popular plugins WPML, Polylang, WooCommerce, Contact Form 7, Revolution Slider, Elementor, Visual Composer, WP-Forms, Ninja Forms, Jetpack, WP-Featherlight, Give (WordPress Donation Plugin), Gravity Forms, Yoast SEO and many more. View the demo of Specia Premium https://demo.speciatheme.com/pro/?theme=specia
-Version: 17.7
-Tested up to: 6.8
+Version: 19.6
+Tested up to: 6.9
 Requires PHP: 5.6
 Requires at least: 4.7
 License: GPLv3 or later
@@ -4110,4 +4110,74 @@ a.wp-block-latest-posts__post-title {
 a.wp-block-button__link:focus {
 	color: #fff;
 	text-decoration: none;
+}
+
+.post.grid-view-news-area ul.wp-block-rss {
+	list-style: disc;
+}
+
+.post .wp-block-archives li {
+	padding-bottom: 0.625rem;
+}
+
+.widget .wp-block-embed .wp-element-caption a {
+	color: inherit;
+}
+
+.sidebar .widget .textwidget a span{
+	color: inherit;
+}
+
+.wp-block-file .wp-block-file__button {
+   text-decoration: none;
+   border: none;
+}
+
+select:focus,
+.form-control:focus {
+	border-color: rgb(255, 33, 79);
+	box-shadow: 0 0 5px rgba(255, 33, 79, 1);
+}
+
+.input-group > .form-control:focus,
+.input-group > .custom-select:focus,
+.input-group > .custom-file:focus {
+	z-index: 0;
+}
+
+.sidebar .widget .wp-block-group .wp-block-embed {
+	margin: 0;
+}
+
+table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantity .wc-block-cart-item__remove-link {
+ text-decoration: none !important;
+}
+
+.footer-sidebar .widget .wp-block-group .wp-block-verse {
+ 	    background: #202020;
+ 	    color: #cccccc;
+}
+
+.widget .wp-block-quote {
+	color: inherit;
+}
+
+.sidebar .widget .wp-block-group .wp-block-preformatted a {
+	text-decoration: underline;
+}
+
+.entry-content ul.wp-block-post-template li.wp-block-post:hover {
+	box-shadow: none;
+}
+
+.wp-block-image .alignleft figcaption {   
+	text-align: left; 
+}
+
+.wp-block-button.is-style-outline a.wp-block-button__link {
+    color: inherit;
+}
+
+.wp-block-button.is-style-outline a.wp-block-button__link {
+ 	border-color: inherit;
 }
