@@ -5,7 +5,7 @@ function specia_setup() {
 	/*
 	 * Define Theme Version
 	 */
-	define( 'SPECIA_THEME_VERSION', '19.7' );
+	define( 'SPECIA_THEME_VERSION', '19.8' );
 	
 	/*
 	 * Make theme available for translation.
