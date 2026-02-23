@@ -4,8 +4,8 @@ Contributors: specia
 Requires at least: 4.7
 Tested up to: 6.9.1
 Requires PHP: 5.6
-Stable tag: 19.8
-Version: 19.8
+Stable tag: 19.9
+Version: 19.9
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, portfolio, editor-style, grid-layout
@@ -88,6 +88,9 @@ License: CC0 Public Domain
 
 
 == Changelog ==
+
+@version 19.9
+* Block Style Improvement
 
 @version 19.8
 * Block Style Improvements
