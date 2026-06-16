@@ -4,8 +4,8 @@ Contributors: specia
 Requires at least: 4.7
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 21.4
-Version: 21.4
+Stable tag: 21.5
+Version: 21.5
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, portfolio, editor-style, grid-layout
@@ -88,6 +88,9 @@ License: CC0 Public Domain
 
 
 == Changelog ==
+
+@version 21.5
+* Style Issue Fixed
 
 @version 21.4
 * Contact Form 7 Tested
