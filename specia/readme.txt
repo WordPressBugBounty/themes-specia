@@ -4,8 +4,8 @@ Contributors: specia
 Requires at least: 6.8
 Tested up to: 7.0.1
 Requires PHP: 7.4
-Stable tag: 24.0
-Version: 24.0
+Stable tag: 24.1
+Version: 24.1
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, portfolio, editor-style, grid-layout
@@ -86,8 +86,10 @@ URL: https://stocksnap.io/photo/couple-food-H8DMCLKYO8
 Source: https://stocksnap.io
 License: CC0 Public Domain
 
-
 == Changelog ==
+
+= 24.1 =
+* Block Style Improvement
 
 = 24.0 =
 * Incorrect Spelling Issue Fixed
